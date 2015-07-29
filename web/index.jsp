@@ -173,7 +173,7 @@
                             	<div class="col-sm-6">
                                     <div class="carousel-content">
                                         <h1 class="main-text"> Varieties of Animal Based Farm Products </h1>
-                                        <h2 class="sub-text"> Yogurt, Curd, Cheese, Sea-food & .... </h2>
+                                        <h2 class="sub-text"> Yogurt, Curd, Cheese & .... </h2>
                                         <button type="button" class="btn btn-info"> <a href="#"> Read More </a> </button>
                                     </div>
                                 </div>
