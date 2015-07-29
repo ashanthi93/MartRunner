@@ -87,7 +87,7 @@
                                 <form method="post" action="login" accept-charset="UTF-8">
                                     <input style="margin-bottom: 15px" type="text" placeholder="Username" id="username" name="username">
                                     <input style="margin-bottom: 15px" type="password" placeholder="Password" id="password" name="password">
-                                    <input style="background-color:#5B29C8;" class="btn btn-primary btn-block" type="submit" id="sign-in" value="Sign In">
+                                    <input style="background-color:#159700;" class="btn btn-primary btn-block" type="submit" id="sign-in" value="Sign In">
                                 </form>
                             </div>
                         </li>
@@ -129,7 +129,7 @@
                             <div class="row slide-margin">
                             	<div class="col-sm-6">
                                     <div class="carousel-content">
-                                        <h1 class="main-text"> Welcome To Good Market </h1>
+                                        <h1 class="main-text"> Welcome To Good Market</h1>
                                         <h2 class="sub-text"> Good Market is "Good for Planet, Good for Country & Good for You"</h2>
                                         <button type="button" class="btn btn-info"> <a href="#"> Read More </a> </button>
                                     </div>
