@@ -6,14 +6,14 @@
         <title> Standards | MartRunner </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/headerStyles.css" rel="stylesheet">
-        <link href="css/footerStyles.css" rel="stylesheet">
-        <link href="css/standards.css" rel="stylesheet">
-        <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="static/css/headerStyles.css" rel="stylesheet">
+        <link href="static/css/footerStyles.css" rel="stylesheet">
+        <link href="static/css/standards.css" rel="stylesheet">
+        <link href="static/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     
-    <body class="body1">
+    <body>
     	<header id="header">    
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
@@ -113,7 +113,7 @@
         <p class="contenttext"> 
         <p class="contentheader"> Social Impact </p>
         <div class="imagediv">
-            <img src="images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
             
         </div>
         
@@ -123,8 +123,8 @@
             social services,</p>
         
         <div class="imagediv">
-            <img src="images/standards/other.png"/>
-            <img src="images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
         </div>
         
         <h3>Level 2 </h3>  <hr class="hr-stand"> <h3 style="margin: 5px 300px 5px 300px">  Monitors and Reports Social Benefit </h3>
@@ -133,9 +133,9 @@
         
                 
         <div class="imagediv">
-            <img src="images/standards/other.png"/>
-            <img src="images/standards/other.png"/>
-            <img src="images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
         </div>
         
         
@@ -151,7 +151,7 @@
         <p class="contenttext"> 
         <p class="contentheader"> Environmental  Impact </p>
         <div class="imagediv">
-            <img src="images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
             
         </div>
         
@@ -160,8 +160,8 @@
         <p>Effort made to benefit the environment by minimizing energy use, resource use, and pollution, contributing to conservation </p>
         
         <div class="imagediv">
-            <img src="images/standards/other.png"/>
-            <img src="images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
         </div>
         
         <h3>Level 2 </h3>  <hr class="hr-stand"> <h3 style="margin: 5px 300px 5px 300px">  Monitors and Reports Environmental Benefit </h3>
@@ -170,9 +170,9 @@
         
                 
         <div class="imagediv">
-            <img src="images/standards/other.png"/>
-            <img src="images/standards/other.png"/>
-            <img src="images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
+            <img src="static/images/standards/other.png"/>
         </div>
         
         
@@ -251,7 +251,7 @@
         </footer>
         
         <script src="https://code.jquery.com/jquery.js"> </script>
-        <script src="js/bootstrap.min.js"> </script>
-        <script src="js/main.js"> </script>
+        <script src="static/js/bootstrap.min.js"> </script>
+        <script src="static/js/main.js"> </script>
     </body>
 </html>

@@ -6,14 +6,14 @@
         <title> Apply | MartRunner </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/headerStyles.css" rel="stylesheet">
-        <link href="css/footerStyles.css" rel="stylesheet">
-        <link href="css/applyStyles.css" rel="stylesheet">
-        <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="static/css/headerStyles.css" rel="stylesheet">
+        <link href="static/css/footerStyles.css" rel="stylesheet">
+        <link href="static/css/applyStyles.css" rel="stylesheet">
+        <link href="static/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     
-    <body class="body1">
+    <body>
     	<header id="header">    
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
@@ -157,17 +157,17 @@
         	<p class="content9">If you have tea, spices, coconut, rice, legumes, vegetables, fruit, plants, other farm products, or other organic products, please use the form for Organic Products.   </p>
             
            
-           <p> <a href="pdf/s_good_market_application_organic_products.pdf"> <img src="images/download.jpg" height="10" width="10"></a></p>
+                <p> <a href="static/pdf/s_good_market_application_organic_products.pdf"> <img src="static/images/download.jpg" height="10" width="10"></a></p>
         
         <h1 class="organic">Natural Food</h1>
         	<p class="content9">If you have packaged or ready-to-eat food and drink that is not made from 100% organic certified ingredients, please use the form for Natural Foods. </p>
             
-            <p> <a href="pdf/s_good_market_application_natural_foods.pdf"><img src="images/download.jpg" height="10" width="10"></a></p>
+                <p> <a href="static/pdf/s_good_market_application_natural_foods.pdf"><img src="static/images/download.jpg" height="10" width="10"></a></p>
             
          <h1 class="organic">Natural Body & Home</h1>
          	<p class="content9">If you have personal care products or household cleaners, please use the form for Natural Body & Home. </p>
             
-            <p> <a href="pdf/s_good_market_application_natural_body_and_home.pdf"><img src="images/download.jpg" height="10" width="10"></a></p>
+                <p> <a href="static/pdf/s_good_market_application_natural_body_and_home.pdf"><img src="static/images/download.jpg" height="10" width="10"></a></p>
             
             </div>
             
@@ -175,17 +175,17 @@
             <h1 class="organic">Arts & HandyCrafts</h1>
             	<p class="content9">If you have artwork, clothing, accessories, housewares, or other handicrafts, please use the form for Arts & Handicrafts.</p>
                 
-                <p> <a href="pdf/s_good_market_application_arts_and_handicrafts.pdf"><img src="images/download.jpg" height="10" width="10"></a></p>
+                <p> <a href="static/pdf/s_good_market_application_arts_and_handicrafts.pdf"><img src="static/images/download.jpg" height="10" width="10"></a></p>
        
 			<h1 class="organic">Travel</h1>
             	<p class="content9">If you provide tourism related services, please use the form for Travel.</p>
                 
-                <p> <a href="pdf/s_good_market_application_travel.pdf"><img src="images/download.jpg" height="10" width="10"></a></p>
+                <p> <a href="static/pdf/s_good_market_application_travel.pdf"><img src="static/images/download.jpg" height="10" width="10"></a></p>
                 
             <h1 class="organic">General</h1>
             	<p class="content9">If you have products or services that are good for environment, for communities, or for health, but do not fit in one of the above product categories, please use the General application form.</p>  
                 
-                <p> <a href="pdf/s_good_market_application_general.pdf"><img src="images/download.jpg" height="10" width="10"></a></p>
+                <p> <a href="static/pdf/s_good_market_application_general.pdf"><img src="static/images/download.jpg" height="10" width="10"></a></p>
                 
              </div>             
                 
@@ -263,8 +263,8 @@
         </footer>
         
         <script src="https://code.jquery.com/jquery.js"> </script>
-        <script src="js/bootstrap.min.js"> </script>
-        <script src="js/main.js"> </script>
+        <script src="static/js/bootstrap.min.js"> </script>
+        <script src="static/js/main.js"> </script>
     </body>
 </html>
 

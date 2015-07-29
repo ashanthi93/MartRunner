@@ -6,15 +6,15 @@
         <title> Visit | MartRunner </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/headerStyles.css" rel="stylesheet">
-        <link href="css/footerStyles.css" rel="stylesheet">
-        <link href="css/backgroundStyles.css" rel="stylesheet">
-        <link href="css/myvisitstyle.css" rel="stylesheet">
-        <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="static/css/headerStyles.css" rel="stylesheet">
+        <link href="static/css/footerStyles.css" rel="stylesheet">
+        <link href="static/css/backgroundStyles.css" rel="stylesheet">
+        <link href="static/css/myvisitstyle.css" rel="stylesheet">
+        <link href="static/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     
-    <body background="images/1.jpg" id="background-img">
+    <body>
     	<header id="header">    
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
@@ -186,10 +186,10 @@
                          </ol> 
                          <!-- Carousel items -->
                          	<div class="carousel-inner">
-                            <div class="item active"> <img src="images/pic7.jpg"> </div>
-                            <div class="item"> <img src="images/pic8.jpg" alt="Second slide"> </div>
-                            <div class="item"> <img src="images/pic9.jpg" alt="Third slide"> </div>
-                            <div class="item"> <img src="images/pic10.jpg" alt="fourth slide"> </div>
+                                    <div class="item active"> <img src="static/images/pic7.jpg"> </div>
+                                    <div class="item"> <img src="static/images/pic8.jpg" alt="Second slide"> </div>
+                                    <div class="item"> <img src="static/images/pic9.jpg" alt="Third slide"> </div>
+                                    <div class="item"> <img src="static/images/pic10.jpg" alt="fourth slide"> </div>
                             <!-- Carousel nav --> 
                             <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
                             <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
@@ -270,8 +270,8 @@
         </footer>
         
         <script src="https://code.jquery.com/jquery.js"> </script>
-        <script src="js/bootstrap.min.js"> </script>
-        <script src="js/main.js"> </script>
+        <script src="static/js/bootstrap.min.js"> </script>
+        <script src="static/js/main.js"> </script>
     </body>
 </html>
 

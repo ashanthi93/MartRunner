@@ -1,0 +1,278 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class farmStandards_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\r\n");
+      out.write("<!doctype html>\r\n");
+      out.write("<html>\r\n");
+      out.write("    <head>\r\n");
+      out.write("        <meta charset=\"utf-8\">\r\n");
+      out.write("        <title> Standards | MartRunner </title>\r\n");
+      out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n");
+      out.write("        \r\n");
+      out.write("        <link href=\"static/css/bootstrap.min.css\" rel=\"stylesheet\">\r\n");
+      out.write("        <link href=\"static/css/headerStyles.css\" rel=\"stylesheet\">\r\n");
+      out.write("        <link href=\"static/css/footerStyles.css\" rel=\"stylesheet\">\r\n");
+      out.write("        <link href=\"static/css/standards.css\" rel=\"stylesheet\">\r\n");
+      out.write("        <link href=\"static/font-awesome-4.3.0/css/font-awesome.min.css\" rel=\"stylesheet\">\r\n");
+      out.write("    </head>\r\n");
+      out.write("    \r\n");
+      out.write("    <body>\r\n");
+      out.write("    \t<header id=\"header\">    \r\n");
+      out.write("            <nav class=\"navbar navbar-inverse\" role=\"navigation\">\r\n");
+      out.write("                <div class=\"navbar-header\">\r\n");
+      out.write("                    <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#martrunner-navbar-collapse\">\r\n");
+      out.write("                    \t<span class=\"sr-only\"> Toggle Naviagtion </span>\r\n");
+      out.write("                        <span class=\"icon-bar\"> </span>\r\n");
+      out.write("                        <span class=\"icon-bar\"> </span>\r\n");
+      out.write("                        <span class=\"icon-bar\"> </span>\r\n");
+      out.write("                \t</button>\r\n");
+      out.write("                    \r\n");
+      out.write("                    <a class=\"navbar-brand\" href=\"index.jsp\"> MartRunner <small> Good Market Event Assist System </small> </a>\r\n");
+      out.write("                </div> <!-- end of navbar-header -->\r\n");
+      out.write("                \r\n");
+      out.write("                <div class=\"collapse navbar-collapse\" id=\"martrunner-navbar-collapse\">\r\n");
+      out.write("                \t<ul class=\"nav navbar-nav navbar-right\">\r\n");
+      out.write("                    \t<li> <a href=\"index.jsp\"> Home </a> </li>\r\n");
+      out.write("                        <li> <a href=\"about.jsp\"> About </a> </li>\r\n");
+      out.write("                        \r\n");
+      out.write("                        <li class=\"active\"> \r\n");
+      out.write("                        \t<a href=\"standards.jsp\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> Standards <b class=\"caret\"> </b> </a>\r\n");
+      out.write("                            <ul class=\"dropdown-menu dropdown-menu-left\" role=\"menu\">\r\n");
+      out.write("                            \t<li> <a href=\"organicStandards.jsp\"> Organic Products </a> </li>\r\n");
+      out.write("                                <li> <a href=\"farmStandards.jsp\"> Animal Based Farm Products </a> </li>\r\n");
+      out.write("                                <li> <a href=\"foodStandards.jsp\"> Prepared Foods </a> </li>\r\n");
+      out.write("                                <li> <a href=\"bodyStandards.jsp\"> Natural Body & Home </a> </li>\r\n");
+      out.write("                                <li> <a href=\"artStandards.jsp\"> Art & Handicrafts  </a> </li>\r\n");
+      out.write("                                <li> <a href=\"pkgStandards.jsp\"> Packaging  </a> </li>\r\n");
+      out.write("                                <li> <a href=\"otherStandards.jsp\"> Other Standards </a> </li>\r\n");
+      out.write("                        \t</ul>\r\n");
+      out.write("                        </li>\r\n");
+      out.write("                        \r\n");
+      out.write("                        <li class=\"dropdown\"> \r\n");
+      out.write("                        \t<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> Vendors <b class=\"caret\"> </b> </a>\r\n");
+      out.write("                            <ul class=\"dropdown-menu dropdown-menu-left\" role=\"menu\">\r\n");
+      out.write("                            \t<li> <a href=\"#\"> Organic Products </a> </li>\r\n");
+      out.write("                                <li> <a href=\"#\"> Animal Based Farm Products </a> </li>\r\n");
+      out.write("                                <li> <a href=\"#\"> Prepared Foods </a> </li>\r\n");
+      out.write("                                <li> <a href=\"#\"> Natural Body & Home </a> </li>\r\n");
+      out.write("                                <li> <a href=\"#\"> Art & Handicrafts  </a> </li>\r\n");
+      out.write("                                <li> <a href=\"#\"> Other </a> </li>\r\n");
+      out.write("                        \t</ul>\r\n");
+      out.write("                        </li>\r\n");
+      out.write("                        \r\n");
+      out.write("                        <li class=\"dropdown\"> \r\n");
+      out.write("                        \t<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" data-target=\"#\"> Products <b class=\"caret\"> </b> </a>\r\n");
+      out.write("                            <ul class=\"dropdown-menu dropdown-menu-left\" role=\"menu\">\r\n");
+      out.write("                            \t<li> <a href=\"#\"> Organic Products </a> </li>\r\n");
+      out.write("                                <li> <a href=\"#\"> Animal Based Farm Products </a> </li>\r\n");
+      out.write("                                <li> <a href=\"#\"> Prepared Foods </a> </li>\r\n");
+      out.write("                                <li> <a href=\"#\"> Natural Body & Home </a> </li>\r\n");
+      out.write("                                <li> <a href=\"#\"> Art & Handicrafts  </a> </li>\r\n");
+      out.write("                                <li> <a href=\"#\"> Other </a> </li>\r\n");
+      out.write("                        \t</ul>\r\n");
+      out.write("                        </li>\r\n");
+      out.write("                        \r\n");
+      out.write("                        <li> \r\n");
+      out.write("                        \t<a href=\"visit.jsp\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" data-target=\"#\"> Visit <b class=\"caret\"> </b> </a>\r\n");
+      out.write("                            <ul class=\"dropdown-menu dropdown-menu-left\" role=\"menu\">\r\n");
+      out.write("                            \t<li> <a href=\"visitThursday.jsp\"> Thursday Good Market </a> </li>\r\n");
+      out.write("                                <li> <a href=\"visitSaturday.jsp\"> Saturday Good Market </a> </li>\r\n");
+      out.write("                                <li> <a href=\"#\"> Good Market Shop </a> </li>\r\n");
+      out.write("                        \t</ul>\r\n");
+      out.write("                        </li>\r\n");
+      out.write("                        \r\n");
+      out.write("                        <li> <a href=\"apply.jsp\"> Apply </a> </li>\r\n");
+      out.write("                        <li> <a href=\"contactUs.jsp\"> Contact Us </a> </li>\r\n");
+      out.write("                        \r\n");
+      out.write("                        <li class=\"dropdown\">\r\n");
+      out.write("                            <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> Sign In <b class=\"caret\"> </b> </a>\r\n");
+      out.write("                            <div class=\"dropdown-menu dropdown-menu-left\" style=\"padding: 15px; padding-bottom: 5px;\">\r\n");
+      out.write("                                <form method=\"post\" action=\"login\" accept-charset=\"UTF-8\">\r\n");
+      out.write("                                    <input style=\"margin-bottom: 15px\" type=\"text\" placeholder=\"Username\" id=\"username\" name=\"username\">\r\n");
+      out.write("                                    <input style=\"margin-bottom: 15px\" type=\"password\" placeholder=\"Password\" id=\"password\" name=\"password\">\r\n");
+      out.write("                                    <input style=\"background-color:#159700;\" class=\"btn btn-primary btn-block\" type=\"submit\" id=\"sign-in\" value=\"Sign In\">\r\n");
+      out.write("                                </form>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </li>\r\n");
+      out.write("                        \r\n");
+      out.write("                        <li>\r\n");
+      out.write("                        \t<form class=\"navbar-form\" role=\"search\">\r\n");
+      out.write("                                <div class=\"input-group\">\r\n");
+      out.write("                                    <input type=\"text\" class=\"form-control\" placeholder=\"Search\" id=\"search-term\" name=\"search-term\">\r\n");
+      out.write("                                        <div class=\"input-group-btn\">\r\n");
+      out.write("                                            <button class=\"btn btn-default\" type=\"submit\"> <i class=\"glyphicon glyphicon-search\"> </i> </button>\r\n");
+      out.write("                                        </div>\r\n");
+      out.write("                                </div>\r\n");
+      out.write("                            </form> <!-- end of navbar-form search -->\r\n");
+      out.write("                        </li>\r\n");
+      out.write("                    </ul> <!-- end of navbar-nav list-->\r\n");
+      out.write("                    \r\n");
+      out.write("            \t</div> <!-- end of navbar-collapse -->\r\n");
+      out.write("            </nav> <!-- end of navbar -->\r\n");
+      out.write("        </header>\r\n");
+      out.write("        \r\n");
+      out.write("        <section>\r\n");
+      out.write("        \t<center><div class=\"subpagediv\">\r\n");
+      out.write("        <p class=\"contenttext\"> \r\n");
+      out.write("        <p class=\"contentheader\"> Animal Based Farm Products </p>\r\n");
+      out.write("        <div class=\"imagedivsub\">\r\n");
+      out.write("            <img src=\"static/images/standards/organic.png\"/>\r\n");
+      out.write("            \r\n");
+      out.write("        </div>\r\n");
+      out.write("        \r\n");
+      out.write("        <h3>Level 1 </h3> <hr class=\"hr-stand\">  <h3 style=\"margin: 5px 300px 5px 300px\">  All Natural </h3>\r\n");
+      out.write("        \r\n");
+      out.write("        <p>No synthetic hormones, antibiotics, preservatives or other additives</p>\r\n");
+      out.write("        \r\n");
+      out.write("        <div class=\"imagedivsub\">\r\n");
+      out.write("            <img src=\"static/images/standards/organic.png\"/>\r\n");
+      out.write("            <img src=\"static/images/standards/organic.png\"/>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        \r\n");
+      out.write("        <h3>Level 2 </h3>  <hr class=\"hr-stand\"> <h3 style=\"margin: 5px 300px 5px 300px\">  All Natural and Free Range </h3>\r\n");
+      out.write("        \r\n");
+      out.write("        <p> No synthetic hormones, antibiotics, preservatives or other additives. Animals have regular access to pasture and are not maintained in\r\n");
+      out.write("            artificially dense living conditions </p>\r\n");
+      out.write("        \r\n");
+      out.write("                \r\n");
+      out.write("        <div class=\"imagedivsub\">\r\n");
+      out.write("            <img src=\"static/images/standards/organic.png\"/>\r\n");
+      out.write("            <img src=\"static/images/standards/organic.png\"/>\r\n");
+      out.write("            <img src=\"static/images/standards/organic.png\"/>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        \r\n");
+      out.write("        \r\n");
+      out.write("        <h3>Level 3 </h3>  <hr class=\"hr-stand\"> <h3 style=\"margin: 5px 300px 5px 300px\">  Organically Raised </h3>\r\n");
+      out.write("        \r\n");
+      out.write("        <p> No synthetic hormones, antibiotics, preservatives or other additives. Animals have regular access to pasture and are not maintained in \r\n");
+      out.write("            artificially dense living conditions. Feed is GMO free and organically grown</p>\r\n");
+      out.write("    </div>\r\n");
+      out.write("        </center>\r\n");
+      out.write("        </section>\r\n");
+      out.write("        \r\n");
+      out.write("        <footer id=\"footer\">\r\n");
+      out.write("        \t<div class=\"container\" id=\"footer-top\">\r\n");
+      out.write("            \t<div class=\"row\">\r\n");
+      out.write("                \t<div class=\"col-sm-6\">\r\n");
+      out.write("                    \t<ul id=\"footer-menu\">\r\n");
+      out.write("                            <li> <a href=\"index.jsp\"> Home </a> </li>\r\n");
+      out.write("                            <li> <a href=\"about.jsp\"> About </a> </li>\r\n");
+      out.write("                            <li> <a href=\"standards.jsp\"> Standards </a> </li>\r\n");
+      out.write("                            <li> <a href=\"#\"> Vendors </a> </li>\r\n");
+      out.write("                            <li> <a href=\"#\"> Products </a> </li>\r\n");
+      out.write("                            <li> <a href=\"visit.jsp\"> Visit </a> </li>\r\n");
+      out.write("                            <li> <a href=\"apply.jsp\"> Apply </a> </li>\r\n");
+      out.write("                            <li> <a href=\"contactUs.jsp\"> Contact Us</a> </li>\r\n");
+      out.write("                        </ul>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                    \r\n");
+      out.write("                    <div class=\"col-sm-6\" id=\"subscribe\">                    \t\r\n");
+      out.write("                    \t<form class=\"navbar-form\">\r\n");
+      out.write("                        \t<div class=\"input-group\">\r\n");
+      out.write("                            \t<input type=\"email\" class=\"form-control\" placeholder=\"Enter your email here\" id=\"email-subscribe\">\r\n");
+      out.write("                                \t<div class=\"input-group-btn\">\r\n");
+      out.write("                                    \t<button class=\"btn btn-default\" type=\"submit\" id=\"subscribe-btn\"> Subscribe </button>\r\n");
+      out.write("                                \t</div>\r\n");
+      out.write("                    \t\t</div>\r\n");
+      out.write("                    \t</form> <!-- end of navbar-form search -->\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("            \r\n");
+      out.write("        \t<hr style=\"border:none; height:0.8px; color:#D1D1D1; background-color:#D1D1D1;\">  \r\n");
+      out.write("            <div class=\"container\" id=\"footer-middle\">\r\n");
+      out.write("            \t<div class=\"row\">\r\n");
+      out.write("                \t<div class=\"col-sm-4\">\r\n");
+      out.write("                    \t<h4> Address </h4>\r\n");
+      out.write("                    \t<address> Lakpahana Grounds, <br> No.14, Reid Avenue, <br> Colombo - 07, <br> Sri Lanka </address>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                \t<div class=\"col-sm-2\">\r\n");
+      out.write("                    \t<ul>\r\n");
+      out.write("                            <li> <h4> Telephone </h4> </li>\r\n");
+      out.write("                            <li> +94 77 377 2122 </li>\r\n");
+      out.write("                            <li> <h4> Email </h4> </li>\r\n");
+      out.write("                            <li id=\"email-id\"> <a href=\"#\"> info@goodmarket.lk </a> </li>\r\n");
+      out.write("                        </ul>\r\n");
+      out.write("                    </div> \r\n");
+      out.write("                    <div class=\"col-sm-6\">\r\n");
+      out.write("                    \t<ul class=\"social-icons\">\r\n");
+      out.write("                        \t<li> <a href=\"#\"> <i class=\"fa fa-facebook-square\"> </i> </a> </li>\r\n");
+      out.write("                            <li> <a href=\"#\"> <i class=\"fa fa-twitter-square\"> </i> </a> </li>\r\n");
+      out.write("                            <li> <a href=\"#\"> <i class=\"fa fa-google-plus-square\"> </i> </a> </li>\r\n");
+      out.write("                        </ul> \r\n");
+      out.write("                    </div>                   \r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("            \r\n");
+      out.write("            <hr>\r\n");
+      out.write("        \t<div class=\"container\" id=\"footer-bottom\">\r\n");
+      out.write("            \t<div class=\"row\">\r\n");
+      out.write("                \t<div class=\"col-sm-6\">\r\n");
+      out.write("                    \tAll Copyrights Reserved by The Good Market Ltd - &copy; 2015\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                    <div class=\"col-sm-6\" style=\"text-align:right;\">\r\n");
+      out.write("                    \tWebsite Designed & Developed by UCSC\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </footer>\r\n");
+      out.write("        \r\n");
+      out.write("        <script src=\"https://code.jquery.com/jquery.js\"> </script>\r\n");
+      out.write("        <script src=\"static/js/bootstrap.min.js\"> </script>\r\n");
+      out.write("        <script src=\"static/js/main.js\"> </script>\r\n");
+      out.write("    </body>\r\n");
+      out.write("</html>\r\n");
+      out.write("\r\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

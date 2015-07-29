@@ -6,14 +6,14 @@
         <title> Standards | MartRunner </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/headerStyles.css" rel="stylesheet">
-        <link href="css/footerStyles.css" rel="stylesheet">
-        <link href="css/standards.css" rel="stylesheet">
-        <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="static/css/headerStyles.css" rel="stylesheet">
+        <link href="static/css/footerStyles.css" rel="stylesheet">
+        <link href="static/css/standards.css" rel="stylesheet">
+        <link href="static/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     
-    <body class="body1">
+    <body>
     	<header id="header">    
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
@@ -117,7 +117,7 @@
                Good Market Standards
             </p>
             <div class="imagediv"> 
-                <img src="images/standards/standrads_main.jpg" class="imagecss" /> 
+                <img src="static/images/standards/standrads_main.jpg" class="imagecss" /> 
             </div>
                 The Good Market is a curated market, which means all vendors have to go through an application and review process, and only vendors that meet the Good Market standards are approved. 
                 <br/>These standards are what set the Good Market apart from other markets.  
@@ -234,8 +234,8 @@
         </footer>
         
         <script src="https://code.jquery.com/jquery.js"> </script>
-        <script src="js/bootstrap.min.js"> </script>
-        <script src="js/main.js"> </script>
+        <script src="static/js/bootstrap.min.js"> </script>
+        <script src="static/js/main.js"> </script>
     </body>
 </html>
 

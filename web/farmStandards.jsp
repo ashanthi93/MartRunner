@@ -6,14 +6,14 @@
         <title> Standards | MartRunner </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/headerStyles.css" rel="stylesheet">
-        <link href="css/footerStyles.css" rel="stylesheet">
-        <link href="css/standards.css" rel="stylesheet">
-        <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="static/css/headerStyles.css" rel="stylesheet">
+        <link href="static/css/footerStyles.css" rel="stylesheet">
+        <link href="static/css/standards.css" rel="stylesheet">
+        <link href="static/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     
-    <body class="body1">
+    <body>
     	<header id="header">    
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
@@ -87,7 +87,7 @@
                                 <form method="post" action="login" accept-charset="UTF-8">
                                     <input style="margin-bottom: 15px" type="text" placeholder="Username" id="username" name="username">
                                     <input style="margin-bottom: 15px" type="password" placeholder="Password" id="password" name="password">
-                                    <input style="background-color:#5B29C8;" class="btn btn-primary btn-block" type="submit" id="sign-in" value="Sign In">
+                                    <input style="background-color:#159700;" class="btn btn-primary btn-block" type="submit" id="sign-in" value="Sign In">
                                 </form>
                             </div>
                         </li>
@@ -113,7 +113,7 @@
         <p class="contenttext"> 
         <p class="contentheader"> Animal Based Farm Products </p>
         <div class="imagedivsub">
-            <img src="images/standards/organic.png"/>
+            <img src="static/images/standards/organic.png"/>
             
         </div>
         
@@ -122,8 +122,8 @@
         <p>No synthetic hormones, antibiotics, preservatives or other additives</p>
         
         <div class="imagedivsub">
-            <img src="images/standards/organic.png"/>
-            <img src="images/standards/organic.png"/>
+            <img src="static/images/standards/organic.png"/>
+            <img src="static/images/standards/organic.png"/>
         </div>
         
         <h3>Level 2 </h3>  <hr class="hr-stand"> <h3 style="margin: 5px 300px 5px 300px">  All Natural and Free Range </h3>
@@ -133,9 +133,9 @@
         
                 
         <div class="imagedivsub">
-            <img src="images/standards/organic.png"/>
-            <img src="images/standards/organic.png"/>
-            <img src="images/standards/organic.png"/>
+            <img src="static/images/standards/organic.png"/>
+            <img src="static/images/standards/organic.png"/>
+            <img src="static/images/standards/organic.png"/>
         </div>
         
         
@@ -215,8 +215,8 @@
         </footer>
         
         <script src="https://code.jquery.com/jquery.js"> </script>
-        <script src="js/bootstrap.min.js"> </script>
-        <script src="js/main.js"> </script>
+        <script src="static/js/bootstrap.min.js"> </script>
+        <script src="static/js/main.js"> </script>
     </body>
 </html>
 

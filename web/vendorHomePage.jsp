@@ -8,11 +8,11 @@
 		<title>Mart Runner</title>
 	
 		<!-- Bootstrap Core CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+                <link href="static/css/bootstrap.min.css" rel="stylesheet">
 	
 		<!-- Custom CSS -->
-		<link href="css/martRunner.css" rel="stylesheet">
-		<link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+                <link href="static/css/martRunner.css" rel="stylesheet">
+                <link href="static/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
 		
 		
 	</head>
@@ -196,10 +196,10 @@
 			</div>
 		</footer>
 		<!-- jQuery -->
-		<script src="js/jquery.js"></script>
+		<script src="https://code.jquery.com/jquery.js"> </script>
 	
 		<!-- Bootstrap Core JavaScript -->
-		<script src="js/bootstrap.min.js"></script>
+                <script src="static/js/bootstrap.min.js"></script>
 	
 	</body>
 

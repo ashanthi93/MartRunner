@@ -6,11 +6,11 @@
         <title> Home | MartRunner </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
-        <link type="text/css" href="css/headerStyles.css" rel="stylesheet">
-        <link type="text/css" href="css/footerStyles.css" rel="stylesheet">
-        <link type="text/css" href="css/mainSliderStyles.css" rel="stylesheet">
-        <link type="text/css" href="css/backgroundStyles.css" rel="stylesheet">
+        <link type="text/css" href="static/css/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" href="static/css/headerStyles.css" rel="stylesheet">
+        <link type="text/css" href="static/css/footerStyles.css" rel="stylesheet">
+        <link type="text/css" href="static/css/mainSliderStyles.css" rel="stylesheet">
+        <link type="text/css" href="static/css/backgroundStyles.css" rel="stylesheet">
     </head>
     
     <body>
@@ -33,9 +33,9 @@
                         <li> <a href="about.jsp"> About </a> </li>
                         
                         <li class="dropdown"> 
-                        	<a href="standards.jsp" class="dropdown-toggle" data-toggle="dropdown"> Standards <b class="caret"> </b> </a>
+                            <a href="standards.jsp" class="dropdown-toggle" data-toggle="dropdown"> Standards <b class="caret"> </b> </a>
                             <ul class="dropdown-menu dropdown-menu-left" role="menu">
-                            	<li> <a href="organicStandards.jsp"> Organic Products </a> </li>
+                                <li> <a href="organicStandards.jsp"> Organic Products </a> </li>
                                 <li> <a href="farmStandards.jsp"> Animal Based Farm Products </a> </li>
                                 <li> <a href="foodStandards.jsp"> Prepared Foods </a> </li>
                                 <li> <a href="bodyStandards.jsp"> Natural Body & Home </a> </li>
@@ -87,6 +87,7 @@
                                 <form method="post" action="login" accept-charset="UTF-8">
                                     <input style="margin-bottom: 15px" type="text" placeholder="Username" id="username" name="username">
                                     <input style="margin-bottom: 15px" type="password" placeholder="Password" id="password" name="password">
+                                    <input style="background-color:#159700;" class="btn btn-primary btn-block" type="submit" id="sign-in" value="Sign In">
                                 </form>
                             </div>
                         </li>
@@ -107,11 +108,11 @@
             </nav> <!-- end of navbar -->
         </header>
         
-		<section id="mainImageSlider" class="no-margin">
-        	<div id="homeSlider" class="carousel slide">
+	<section id="mainImageSlider" class="no-margin">
+            <div id="homeSlider" class="carousel slide">
             	<!-- Carousel Indicators -->
                 <ol class="carousel-indicators">
-                	<li data-target="#homeSlider" data-slide-to="0" class="active"> </li>
+                    <li data-target="#homeSlider" data-slide-to="0" class="active"> </li>
                     <li data-target="#homeSlider" data-slide-to="1"> </li>
                     <li data-target="#homeSlider" data-slide-to="2"> </li>
                     <li data-target="#homeSlider" data-slide-to="3"> </li>
@@ -123,7 +124,7 @@
                
                 <!-- Carousel Inner -->
                 <div class="carousel-inner">
-                	<div class="item active" style="background-image:url(images/back4.png); width:1400px; height:555px;">
+                    <div class="item active" style="background-image:url(static/images/back4.png); width:1400px; height:555px;">
                     	<div class="container">
                             <div class="row slide-margin">
                             	<div class="col-sm-6">
@@ -133,13 +134,12 @@
                                         <button type="button" class="btn btn-info"> <a href="#"> Read More </a> </button>
                                     </div>
                                 </div>
-                        	</div>
-                            <div class="slide-logo"> <img src="images/logoGreen.png" height="20">
-                        	</div>
+                            </div>
+                            <div class="slide-logo"> <img src="static/images/logoGreen.png" height="20" alt="logoGM"> </div>
                     	</div>
-                	</div>
+                    </div>
                     
-                    <div class="item" style="background-image:url(images/organicFood.jpg); width:1400px; height:555px;">
+                    <div class="item" style="background-image:url(static/images/organicFood.jpg); width:1400px; height:555px;">
                     	<div class="container">
                             <div class="row slide-margin">
                             	<div class="col-sm-6">
@@ -151,9 +151,9 @@
                                 </div>
                         	</div>
                     	</div>
-                	</div>
+                    </div>
                     
-                    <div class="item" style="background-image:url(images/backPrepared_Food.jpg); width:1400px; height:555px;">
+                    <div class="item" style="background-image:url(static/images/backPrepared_Food.jpg); width:1400px; height:555px;">
                     	<div class="container">
                             <div class="row slide-margin">
                             	<div class="col-sm-6">
@@ -163,11 +163,11 @@
                                         <button type="button" class="btn btn-info"> <a href="#"> Read More </a> </button>
                                     </div>
                                 </div>
-                        	</div>
+                            </div>
                     	</div>
-                	</div>
+                    </div>
                     
-                    <div class="item" style="background-image:url(images/backAnimal_Farm%203.jpg); width:1400px; height:555px;">
+                    <div class="item" style="background-image:url(static/images/backAnimal_Farm%203.jpg); width:1400px; height:555px;">
                     	<div class="container">
                             <div class="row slide-margin">
                             	<div class="col-sm-6">
@@ -177,11 +177,11 @@
                                         <button type="button" class="btn btn-info"> <a href="#"> Read More </a> </button>
                                     </div>
                                 </div>
-                        	</div>
+                            </div>
                     	</div>
-                	</div>
+                    </div>
                     
-                    <div class="item" style="background-image:url(images/backBody_Home.jpg); width:1400px; height:555px;">
+                    <div class="item" style="background-image:url(static/images/backBody_Home.jpg); width:1400px; height:555px;">
                     	<div class="container">
                             <div class="row slide-margin">
                             	<div class="col-sm-6">
@@ -191,11 +191,11 @@
                                         <button type="button" class="btn btn-info"> <a href="#"> Read More </a> </button>
                                     </div>
                                 </div>
-                        	</div>
+                            </div>
                     	</div>
-                	</div>
+                    </div>
                     
-                    <div class="item" style="background-image:url(images/backArt_Handi.jpg); width:1400px; height:555px; background-repeat:no-repeat">
+                    <div class="item" style="background-image:url(static/images/backArt_Handi.jpg); width:1400px; height:555px; background-repeat:no-repeat">
                     	<div class="container">
                             <div class="row slide-margin">
                             	<div class="col-sm-6">
@@ -205,11 +205,11 @@
                                         <button type="button" class="btn btn-info"> <a href="#"> Read More </a> </button>
                                     </div>
                                 </div>
-                        	</div>
+                            </div>
                     	</div>
-                	</div>
+                    </div>
                     
-                    <div class="item" style="background-image:url(images/backZumba.jpg); width:1400px; height:555px;">
+                    <div class="item" style="background-image:url(static/images/backZumba.jpg); width:1400px; height:555px;">
                     	<div class="container">
                             <div class="row slide-margin">
                             	<div class="col-sm-6">
@@ -218,9 +218,9 @@
                                         <h2 class="sub-text"> Have Fun, Happy & Good for You  </h2>
                                     </div>
                                 </div>
-                        	</div>
+                            </div>
                     	</div>
-                	</div>
+                    </div>
                 </div>
                 <!-- End of Carousel Inner -->
                 
@@ -249,7 +249,7 @@
         </footer>
         
         <script src="https://code.jquery.com/jquery.js"> </script>
-        <script src="js/bootstrap.min.js"> </script>
-        <script src="js/main.js"> </script>
+        <script src="static/js/bootstrap.min.js"> </script>
+        <script src="static/js/main.js"> </script>
     </body>
 </html>

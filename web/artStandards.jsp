@@ -6,14 +6,14 @@
         <title> Standards | MartRunner </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/headerStyles.css" rel="stylesheet">
-        <link href="css/footerStyles.css" rel="stylesheet">
-        <link href="css/standards.css" rel="stylesheet">
-        <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="static/css/headerStyles.css" rel="stylesheet">
+        <link href="static/css/footerStyles.css" rel="stylesheet">
+        <link href="static/css/standards.css" rel="stylesheet">
+        <link href="static/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     
-    <body class="body1">
+    <body>
     	<header id="header">    
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
@@ -114,7 +114,7 @@
                     <p class="contentheader"> Art & Handicrafts </p>
                     
                     <div class="imagediv">
-                        <img src="images/standards/art.png"/>
+                        <img src="static/images/standards/art.png"/>
                     </div>
             
                     <h3>Level 1 </h3> 
@@ -125,8 +125,8 @@
                     </p>
                     
                     <div class="imagediv">
-                        <img src="images/standards/art.png"/>
-                        <img src="images/standards/art.png"/>
+                        <img src="static/images/standards/art.png"/>
+                        <img src="static/images/standards/art.png"/>
                     </div>
                 
                     <h3>Level 2   </h3> 
@@ -138,9 +138,9 @@
                 
                         
                     <div class="imagediv">
-                        <img src="images/standards/art.png"/>
-                        <img src="images/standards/art.png"/>
-                        <img src="images/standards/art.png"/>
+                        <img src="static/images/standards/art.png"/>
+                        <img src="static/images/standards/art.png"/>
+                        <img src="static/images/standards/art.png"/>
                     </div>
                 
                 
@@ -219,8 +219,8 @@
         </footer>
         
         <script src="https://code.jquery.com/jquery.js"> </script>
-        <script src="js/bootstrap.min.js"> </script>
-        <script src="js/main.js"> </script>
+        <script src="static/js/bootstrap.min.js"> </script>
+        <script src="static/js/main.js"> </script>
     </body>
 </html>
 
