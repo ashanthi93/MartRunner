@@ -196,7 +196,7 @@
 			</div>
 		</footer>
 		<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery.js"> </script>
+		 <script src="js/jquery.js"> </script>
 	
 		<!-- Bootstrap Core JavaScript -->
                 <script src="static/js/bootstrap.min.js"></script>
