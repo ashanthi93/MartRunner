@@ -182,7 +182,8 @@
 	
 		</div>
 		<!-- /.container -->
-		
+                <div style="height: 87px;"></div>
+                     
 		<footer id="footer">	
 			<div class="container">
 				<div class="row">
@@ -196,7 +197,7 @@
 			</div>
 		</footer>
 		<!-- jQuery -->
-		 <script src="js/jquery.js"> </script>
+		<script src="static/js/jquery.js"> </script>
 	
 		<!-- Bootstrap Core JavaScript -->
                 <script src="static/js/bootstrap.min.js"></script>

@@ -291,7 +291,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            </div>\r\n");
       out.write("        </footer>\r\n");
       out.write("        \r\n");
-      out.write("        <script src=\"https://code.jquery.com/jquery.js\"> </script>\r\n");
+      out.write("        <script src=\"static/js/jquery.js\"> </script>\r\n");
       out.write("        <script src=\"static/js/bootstrap.min.js\"> </script>\r\n");
       out.write("        <script src=\"static/js/main.js\"> </script>\r\n");
       out.write("    </body>\r\n");

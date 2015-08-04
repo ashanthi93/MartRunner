@@ -258,8 +258,8 @@ public final class adminHomePage_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\t\t</footer>\r\n");
       out.write("\t\t\r\n");
       out.write("\t\t<!-- jQuery -->\r\n");
-      out.write("                <!--<script src=\"static/js/jquery.js\"></script>-->\r\n");
-      out.write("                <script src=\"https://code.jquery.com/jquery.js\"> </script>\r\n");
+      out.write("                <!--<script src=\"static/js/jquery.js\"></script> dropdown won't work for this -->\r\n");
+      out.write("                 <script src=\"static/js/jquery.js\"> </script>\r\n");
       out.write("\t\r\n");
       out.write("\t\t<!-- Bootstrap Core JavaScript -->\r\n");
       out.write("                <script src=\"static/js/bootstrap.min.js\"></script>\r\n");
