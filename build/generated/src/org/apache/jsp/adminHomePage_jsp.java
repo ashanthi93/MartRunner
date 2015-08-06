@@ -157,7 +157,15 @@ public final class adminHomePage_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\t\t\t\t\t\t\t\t\t<center> <label style=\"color: #000000; padding-top:35px; font-size:20px;\"> ADMINISTRATOR </label>  <br/><br/> \r\n");
       out.write("\t\t\t\t\t\t\t\t\t\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<span class=\"glyphicon glyphicon-user\" style=\"font-size:100px; color:#000000;\"></span> <br/><br/> \r\n");
-      out.write("\t\t\t\t\t\t\t\t\t<button class=\"btn btn-default\" style=\"width:135px;\"> <strong> <center>Edit Profile</center></strong></button>\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t<button class=\"btn btn-default\" style=\"width:135px;\"> <strong> <center>Edit Profile</center></strong>\r\n");
+      out.write("                                                                            <ul id=\"editProfileDrop\"  class=\"dropdown\" >\r\n");
+      out.write("                                                                                <li><a href=\"#\">This is a link</a></li>\r\n");
+      out.write("                                                                                <li><a href=\"#\">This is another</a></li>\r\n");
+      out.write("                                                                                <li><a href=\"#\">Yet another</a></li>\r\n");
+      out.write("                                                                                \r\n");
+      out.write("                                                                            </ul>\r\n");
+      out.write("                                                                        \r\n");
+      out.write("                                                                        </button>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<br/><br/> <br/>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t\r\n");

@@ -17,10 +17,10 @@
 		
 	</head>
 
-	<body>
+	<body style="background-color: #FCFAF8">
 		
 		
-		<header id="header">    
+	<header id="header">    
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#martrunner-navbar-collapse">
@@ -110,12 +110,12 @@
 		
 		<div class="container">
 
-			<div class="row">
-				<div class="box">
+			<div class="row" >
+				<div class="box" style="background-color: #FCFAF8">
 					<table class="col-lg-12">
 						<tr>
 							<td>
-								<div class="col-lg-12" align="left" style="width:200px; height:400px; background-color:#99CC99;"> 
+								<div class="col-lg-12 rcornersSide" align="left" style="width:200px; height:400px; background-color:#DECEBE;"> 
 									<center>  <label style="color:#000000; padding-top:35px; font-size:20px;"> VENDOR </label>  <br/><br/> 
 									<span class="glyphicon glyphicon-user" style="font-size:70px; color:#000000;"></span> <br/><br/> 
 									<button class="btn btn-default" style="width:135px" > <strong> Edit Profile</strong></button>`
@@ -138,37 +138,79 @@
 									
 									</div>
 									<div class="col-lg-12">
-										<div class="col-lg-12 rcorners" style="width:150px;height:120px;" align="center">
-											<a href="#"><span class="glyphicon glyphicon-ok-sign" style="font-size:60px; color:#FFCC00;padding-top:10px"></span><br/>
-											 <label style="color:#000000">Confirm Attendance</label></a>
+										<div class="col-lg-12 rcorners" style="width:200px;height:120px;" align="center">
+											<span class="glyphicon glyphicon-ok-sign" style="font-size:60px; color:#FFCC00;padding-top:10px"></span><br/>
+											<!--<label style="color:#000000">Confirm Attendance</label></a>-->
+                                                                                        
+                                                                                         <div class="btn-group" align="center" >
+                                                                                            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="color:#000000">
+                                                                                                <b> Confirm Attendance</b>
+                                                                                                <span class="caret"></span>
+                                                                                            </a>
+
+                                                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                                                                  <li><a  href="#">Thursday Market</a></li>
+                                                                                                  <li><a  href="#">Saturday Market</a></li>
+                                                                                            </ul>
+
+                                                                                          </div>
 										</div>
 										<div class="col-lg-12 " style="width:15px;height:120px;" ></div>
-										<div class="col-lg-12 rcorners" style="width:150px;height:120px;padding-top:10px;" align="center">
+										<div class="col-lg-12 rcorners" style="width:200px;height:120px;padding-top:10px;" align="center">
 											<a href="#"><span class="glyphicon glyphicon-bell" style="font-size:60px; color:#BC2312;"></span><br/>
-											 <label style="color:#000000">Notifications</label></a>
+											 
+                                                                                        <label style="color:#000000; padding-top: 8px;">Notifications</label></a>
 										</div>  
 										<div class="col-lg-12 " style="width:15px;height:120px;" ></div>
-										<div class="col-lg-12 rcorners" style="width:150px;height:120px;padding-top:10px;" align="center">
-											<a href="#"><span class="glyphicon glyphicon-map-marker" style="font-size:60px; color:#009900;"></span><br/>
-											 <label style="color:#000000">Stall Assignments</label></a>
+										<div class="col-lg-12 rcorners" style="width:200px;height:120px;padding-top:10px;" align="center">
+											<span class="glyphicon glyphicon-map-marker" style="font-size:60px; color:#009900;"></span><br/>
+											<!--<label style="color:#000000">Stall Assignments</label></a>-->
+                                                                                        
+                                                                                        <div class="btn-group" align="center" >
+                                                                                            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="color:#000000">
+                                                                                                <b> Stall Assignments</b>
+                                                                                                <span class="caret"></span>
+                                                                                            </a>
+
+                                                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                                                                  <li><a  href="#">View Stall Assignment</a></li>
+                                                                                                  <li><a  href="#">Reserve Stall</a></li>
+                                                                                            </ul>
+
+                                                                                          </div>
+							
 										</div> 
 										
 										<div class="col-lg-12 " style="width:800px;height:15px;" ></div>
-										<div class="col-lg-12 rcorners" style="width:150px;height:120px;padding-top:10px;" align="center">
-											<a href="#"><span class="glyphicon glyphicon-globe" style="font-size:60px; color:#000066;"></span><br/>
-											 <label style="color:#000000">Produts & Posts</label></a>
+										<div class="col-lg-12 rcorners" style="width:200px;height:120px;padding-top:10px;" align="center">
+											<span class="glyphicon glyphicon-globe" style="font-size:60px; color:#000066;"></span><br/>
+											<!--<label style="color:#000000">Products & Posts</label></a>-->
+                                                                                        
+                                                                                         <div class="btn-group" align="center" >
+                                                                                            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="color:#000000">
+                                                                                                <b> Products & Posts</b>
+                                                                                                <span class="caret"></span>
+                                                                                            </a>
+
+                                                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                                                                  <li><a  href="#">Products</a></li>
+                                                                                                  <li><a  href="#">Post</a></li>
+                                                                                            </ul>
+
+                                                                                          </div>
+							
 										</div>  
 										
 										<div class="col-lg-12 " style="width:15px;height:120px;" ></div>
-										<div class="col-lg-12 rcorners" style="width:150px;height:120px;padding-top:10px;" align="center">
+										<div class="col-lg-12 rcorners" style="width:200px;height:120px;padding-top:10px;" align="center">
 											<a href="#"><span class="glyphicon glyphicon-eye-open" style="font-size:60px; color:#666666;"></span><br/>
-											 <label style="color:#000000">Customer View</label></a>
+											 <label style="color:#000000;padding-top: 8px;">Customer View</label></a>
 										</div>  
 										
 										<div class="col-lg-12 " style="width:15px;height:170px;" ></div>
-										<div class="col-lg-12 rcorners" style="width:150px;height:120px;padding-top:10px;" align="center">
+										<div class="col-lg-12 rcorners" style="width:200px;height:120px;padding-top:10px;" align="center">
 											<a href="#"><span class="glyphicon glyphicon-usd" style="font-size:60px; color:#663366;"></span><br/>
-											 <label style="color:#000000">Payment details</label></a>
+											 <label style="color:#000000;padding-top: 8px;">Payment details</label></a>
 										</div>  
 										
 										
