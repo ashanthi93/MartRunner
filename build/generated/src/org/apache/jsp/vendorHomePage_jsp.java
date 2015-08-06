@@ -57,12 +57,10 @@ public final class vendorHomePage_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("                <link href=\"static/css/martRunner.css\" rel=\"stylesheet\">\r\n");
       out.write("                <link href=\"static/font-awesome-4.3.0/css/font-awesome.min.css\" rel=\"stylesheet\">\r\n");
       out.write("\t\t\r\n");
-      out.write("\t\t\r\n");
       out.write("\t</head>\r\n");
       out.write("\r\n");
-      out.write("\t<body style=\"background-color: #FCFAF8\">\r\n");
-      out.write("\t\t\r\n");
-      out.write("\t\t\r\n");
+      out.write("\t<body>\r\n");
+      out.write("\t\t\t\r\n");
       out.write("\t<header id=\"header\">    \r\n");
       out.write("            <nav class=\"navbar navbar-inverse\" role=\"navigation\">\r\n");
       out.write("                <div class=\"navbar-header\">\r\n");
@@ -154,11 +152,11 @@ public final class vendorHomePage_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\t\t<div class=\"container\">\r\n");
       out.write("\r\n");
       out.write("\t\t\t<div class=\"row\" >\r\n");
-      out.write("\t\t\t\t<div class=\"box\" style=\"background-color: #FCFAF8\">\r\n");
+      out.write("\t\t\t\t<div class=\"box\">\r\n");
       out.write("\t\t\t\t\t<table class=\"col-lg-12\">\r\n");
       out.write("\t\t\t\t\t\t<tr>\r\n");
       out.write("\t\t\t\t\t\t\t<td>\r\n");
-      out.write("\t\t\t\t\t\t\t\t<div class=\"col-lg-12 rcornersSide\" align=\"left\" style=\"width:200px; height:400px; background-color:#DECEBE;\"> \r\n");
+      out.write("\t\t\t\t\t\t\t\t<div class=\"col-lg-12 rcornersSide\" align=\"left\" style=\"width:200px; height:400px; background-color:#3D7100;\"> \r\n");
       out.write("\t\t\t\t\t\t\t\t\t<center>  <label style=\"color:#000000; padding-top:35px; font-size:20px;\"> VENDOR </label>  <br/><br/> \r\n");
       out.write("\t\t\t\t\t\t\t\t\t<span class=\"glyphicon glyphicon-user\" style=\"font-size:70px; color:#000000;\"></span> <br/><br/> \r\n");
       out.write("\t\t\t\t\t\t\t\t\t<button class=\"btn btn-default\" style=\"width:135px\" > <strong> Edit Profile</strong></button>`\r\n");

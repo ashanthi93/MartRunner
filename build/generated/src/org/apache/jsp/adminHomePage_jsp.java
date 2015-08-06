@@ -78,7 +78,7 @@ public final class adminHomePage_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\t\t\t\t\t\t\t<li> <a href=\"about.jsp\"> About </a> </li>\r\n");
       out.write("\t\t\t\t\t\t\t\r\n");
       out.write("\t\t\t\t\t\t\t<li class=\"dropdown\"> \r\n");
-      out.write("                                                            <a href=\"standards.jsp\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> Standards <b class=\"caret\"> </b> </a>\r\n");
+      out.write("                                                            <a href=\"standards.jsp\" class=\"dropdown-toggle disabled\" data-toggle=\"dropdown\"> Standards <b class=\"caret\"> </b> </a>\r\n");
       out.write("\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-menu-left\" role=\"menu\">\r\n");
       out.write("                                                                    <li> <a href=\"organicStandards.jsp\"> Organic Products </a> </li>\r\n");
       out.write("                                                                    <li> <a href=\"farmStandards.jsp\"> Animal Based Farm Products </a> </li>\r\n");
@@ -91,7 +91,7 @@ public final class adminHomePage_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\t\t\t\t\t\t\t</li>\r\n");
       out.write("\t\t\t\t\t\t\t\r\n");
       out.write("\t\t\t\t\t\t\t<li class=\"dropdown\"> \r\n");
-      out.write("\t\t\t\t\t\t\t\t<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> Vendors <b class=\"caret\"> </b> </a>\r\n");
+      out.write("\t\t\t\t\t\t\t\t<a href=\"#\" class=\"dropdown-toggle disabled\" data-toggle=\"dropdown\"> Vendors <b class=\"caret\"> </b> </a>\r\n");
       out.write("\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-menu-left\" role=\"menu\">\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<li> <a href=\"#\"> Organic Products </a> </li>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<li> <a href=\"#\"> Animal Based Farm Products </a> </li>\r\n");
@@ -103,7 +103,7 @@ public final class adminHomePage_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\t\t\t\t\t\t\t</li>\r\n");
       out.write("\t\t\t\t\t\t\t\r\n");
       out.write("\t\t\t\t\t\t\t<li class=\"dropdown\"> \r\n");
-      out.write("\t\t\t\t\t\t\t\t<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" data-target=\"#\"> Products <b class=\"caret\"> </b> </a>\r\n");
+      out.write("\t\t\t\t\t\t\t\t<a href=\"#\" class=\"dropdown-toggle disabled\" data-toggle=\"dropdown\" data-target=\"#\"> Products <b class=\"caret\"> </b> </a>\r\n");
       out.write("\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-menu-left\" role=\"menu\">\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<li> <a href=\"#\"> Organic Products </a> </li>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<li> <a href=\"#\"> Animal Based Farm Products </a> </li>\r\n");
@@ -115,7 +115,7 @@ public final class adminHomePage_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\t\t\t\t\t\t\t</li>\r\n");
       out.write("\t\t\t\t\t\t\t\r\n");
       out.write("\t\t\t\t\t\t\t<li class=\"dropdown\"> \r\n");
-      out.write("\t\t\t\t\t\t\t\t<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" data-target=\"#\"> Visit <b class=\"caret\"> </b> </a>\r\n");
+      out.write("\t\t\t\t\t\t\t\t<a href=\"#\" class=\"dropdown-toggle disabled\" data-toggle=\"dropdown\" data-target=\"#\"> Visit <b class=\"caret\"> </b> </a>\r\n");
       out.write("\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-menu-left\" role=\"menu\">\r\n");
       out.write("                                                                    <li> <a href=\"visitThursday.jsp\"> Thursday Good Market </a> </li>\r\n");
       out.write("                                                                    <li> <a href=\"visitSaturday.jsp\"> Saturday Good Market </a> </li>\r\n");

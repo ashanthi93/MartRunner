@@ -39,7 +39,7 @@
                         <li> <a href="about.jsp"> About </a> </li>
                         
                         <li class="dropdown"> 
-                        	<a href="standards.jsp" class="dropdown-toggle" data-toggle="dropdown"> Standards <b class="caret"> </b> </a>
+                        	<a href="standards.jsp" class="dropdown-toggle disabled" data-toggle="dropdown"> Standards <b class="caret"> </b> </a>
                             <ul class="dropdown-menu dropdown-menu-left" role="menu">
                             	<li> <a href="organicStandards.jsp"> Organic Products </a> </li>
                                 <li> <a href="farmStandards.jsp"> Animal Based Farm Products </a> </li>
@@ -52,7 +52,7 @@
                         </li>
                         
                         <li class="dropdown"> 
-                        	<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Vendors <b class="caret"> </b> </a>
+                        	<a href="#" class="dropdown-toggle disabled" data-toggle="dropdown"> Vendors <b class="caret"> </b> </a>
                             <ul class="dropdown-menu dropdown-menu-left" role="menu">
                             	<li> <a href="#"> Organic Products </a> </li>
                                 <li> <a href="#"> Animal Based Farm Products </a> </li>
@@ -64,7 +64,7 @@
                         </li>
                         
                         <li class="dropdown"> 
-                        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#"> Products <b class="caret"> </b> </a>
+                        	<a href="#" class="dropdown-toggle disabled" data-toggle="dropdown" data-target="#"> Products <b class="caret"> </b> </a>
                             <ul class="dropdown-menu dropdown-menu-left" role="menu">
                             	<li> <a href="#"> Organic Products </a> </li>
                                 <li> <a href="#"> Animal Based Farm Products </a> </li>
@@ -76,7 +76,7 @@
                         </li>
                         
                         <li> 
-                        	<a href="visit.jsp" class="dropdown-toggle" data-toggle="dropdown" data-target="#"> Visit <b class="caret"> </b> </a>
+                        	<a href="visit.jsp" class="dropdown-toggle disabled" data-toggle="dropdown" data-target="#"> Visit <b class="caret"> </b> </a>
                             <ul class="dropdown-menu dropdown-menu-left" role="menu">
                             	<li> <a href="visitThursday.jsp"> Thursday Good Market </a> </li>
                                 <li> <a href="visitSaturday.jsp"> Saturday Good Market </a> </li>
