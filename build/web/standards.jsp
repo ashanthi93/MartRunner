@@ -65,7 +65,7 @@
                 <br>
 
                 Want to learn more about the Good Market standards for social and environmental impact? <br> 
-                Visit the <a href="#">Impact</a> page.MAD MEEEEEEEEEEEEEEEEEEE
+                Visit the <a href="#">Impact</a> page.
                 <br>
                 <br>
         </div></center>
