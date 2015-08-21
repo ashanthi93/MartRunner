@@ -63,6 +63,10 @@
                         As a Guarantee Limited company, the Good Market does not have shareholders.  All profits from Good Market trade activities and other initiatives are reinvested to support the Good Market’s social and environmental mission.
                     </p>
                 </div>
+                
+                <div class="panel-heading">
+                    <h1 class="panel-title"> GSM </h1>
+                </div>
             </div>
         </section>
         
