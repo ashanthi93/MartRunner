@@ -64,9 +64,6 @@
                     </p>
                 </div>
                 
-                <div class="panel-heading">
-                    <h1 class="panel-title"> GSM </h1>
-                </div>
             </div>
         </section>
         
