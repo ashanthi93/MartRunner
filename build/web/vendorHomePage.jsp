@@ -19,7 +19,7 @@
 	<body>
 		
 		
-            <div id="header"></div>
+            <%@include file="header.jsp" %>
 		
 		
 		<div class="container">
@@ -140,17 +140,10 @@
 		<!-- /.container -->
                 <div style="height: 87px;"></div>
                      
-                <div id="footer"></div>
+                <%@include file="footer_sub.jsp" %>
 		<!-- jQuery -->
 		<script src="static/js/jquery.js"> </script>
-                <script src="static/js/jquery_2.js"> </script>
-                <script>
-                    $(function(){
-                        $("#header").load("header.jsp");
-                        $("#footer").load("footer_sub.jsp");
-                    });
-                </script>
-	
+                
 		<!-- Bootstrap Core JavaScript -->
                 <script src="static/js/bootstrap.min.js"></script>
 	

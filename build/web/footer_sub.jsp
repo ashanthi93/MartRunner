@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link href="static/css/footerStyles.css" rel="stylesheet">
-        <link href="static/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     <body>
         <footer id="footer">

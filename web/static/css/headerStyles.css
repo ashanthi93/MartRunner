@@ -4,7 +4,8 @@
 .navbar{
 	padding: 15px 0;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-color:rgba(0,0,0,0.85);
+        color: #fff;
+	background:rgba(0,0,0,0.95);
 	border:none;
 	border-radius:0;
 	margin-bottom:0px;
