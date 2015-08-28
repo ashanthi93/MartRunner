@@ -71,29 +71,67 @@
 
         <h2 id="header1">Location</h2>
         <div>
+
             <div >
                 <div class="col-lg-4">
-                    <p>Saturday Good Market </p>
-                    <div id="googleMap" style="width:300px;height:300px;"></div>
+
+                    <p class="places">Saturday Good Market </p>
+                    <div id="googleMap" style="width:325px;height:250px;"></div>
+
+
                 </div>
                 <div class="col-lg-4">
-                    <p>Thursday Good market</p>
-                    <div id="googleMap1" style="width:300px;height:300px;"></div>
+                    <p class="places">Thursday Good market</p>
+                    <div id="googleMap1" style="width:325px;height:250px;"></div>
                 </div>
 
                 <div class="col-lg-4">
 
-                    <p>Good Market Shop</p>
-                    <div id="googleMap2" style="width:300px;height:300px;"></div>
+                    <p class="places">Good Market Shop</p>
+                    <div id="googleMap2" style="width:325px;height:250px;"></div>
+
+                </div>
+            </div>
+            <div>
+                <div class="col-lg-4">
+                    <h2 id="contactus">Contact Us</h2>
+                    <address id="address">
+                        <strong >Good market Shop,</strong><br>
+                        Lakpahana Grounds,<br>
+                        No-14 Read Avenue,<br>
+                        Colombo-7<br>
+
+                    </address>
+                    <strong>Tel:-</strong> +94 915 560 001-5<br>
+                    <strong> Fax:-</strong> +94 914 383 243 1<br>
+                    <strong >E-mail:-</strong> web@goodmarket.lk
+
+
+
+
+
+
+                </div >
+
+                <div class="col-lg-3">
+                    <p></p>
+                </div>
+
+                <div class="col-lg-5">
+
 
                 </div>
             </div>
 
+        </div>
 
 
 
 
 
 
-                </body>
-                </html>
+
+
+
+    </body>
+</html>
