@@ -93,10 +93,12 @@
                 </div>
             </div>
             <div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
+
                     <h2 id="contactus">Contact Us</h2>
                     <address id="address">
                         <strong >Good market Shop,</strong><br>
+
                         Lakpahana Grounds,<br>
                         No-14 Read Avenue,<br>
                         Colombo-7<br>
@@ -105,6 +107,14 @@
                     <strong>Tel:-</strong> +94 915 560 001-5<br>
                     <strong> Fax:-</strong> +94 914 383 243 1<br>
                     <strong >E-mail:-</strong> web@goodmarket.lk
+                    
+
+
+
+
+
+
+
 
 
 
@@ -112,13 +122,19 @@
 
 
                 </div >
+                <div class="col-lg-1">
+                    <a href="https://www.facebook.com/goodmarketlk?fref=ts"><img id="imagelogo" src="static/images/logo/fb.jpg"></a>
+                    <a href="#"><img id="imagelogo2" src="static/images/logo/g+.png"></a>
+                    <a href="#"><img id="imagelogo3" src="static/images/logo/twter.png"></a>
+                </div>
 
                 <div class="col-lg-3">
-                    <p></p>
+                    <a href="#"><img id="imagelogo4" src="static/images/logo/feed.jpg"></a>
+                    <h3 id="feedbackfont">Send Feedback</h3>
                 </div>
 
                 <div class="col-lg-5">
-
+                    <img id="imageid" src="static/images/good.jpg">
 
                 </div>
             </div>
