@@ -21,30 +21,68 @@
 
         <script>
             function initialize() {
-                var mapProp = {
-                    center: new google.maps.LatLng(6.906532, 79.863419),
+                var myLatLng = {lat: 6.906532, lng: 79.863419};
+
+                var map = new google.maps.Map(document.getElementById('googleMap'), {
                     zoom: 18,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-            }
-            function initializer() {
-                var mapProp = {
-                    center: new google.maps.LatLng(6.9044815, 79.9098249),
-                    zoom: 18,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                var map = new google.maps.Map(document.getElementById("googleMap1"), mapProp);
+                    center: myLatLng
+                });
+
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: 'Saturday market @ Racecourse Ground!'
+                });
             }
 
-            function initializer1() {
-                var mapProp = {
-                    center: new google.maps.LatLng(6.9058213, 79.8630867),
+            function initializer() {
+                var myLatLng = {lat: 6.9044815, lng: 79.9098249};
+
+                var map = new google.maps.Map(document.getElementById('googleMap1'), {
                     zoom: 18,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                var map = new google.maps.Map(document.getElementById("googleMap2"), mapProp);
+                    center: myLatLng
+                });
+
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: 'Thursday market @ Diyatha Uyana!!'
+                });
             }
+            function initializer1() {
+                var myLatLng = {lat: 6.9058213, lng: 79.8630867};
+
+                var map = new google.maps.Map(document.getElementById('googleMap2'), {
+                    zoom: 18,
+                    center: myLatLng
+                });
+
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: 'Good Market Shop!'
+                });
+            }
+
+
+            /* function initializer() {
+             var mapProp = {
+             center: new google.maps.LatLng(6.9044815, 79.9098249),
+             zoom: 18,
+             mapTypeId: google.maps.MapTypeId.ROADMAP
+             };
+             var map = new google.maps.Map(document.getElementById("googleMap1"), mapProp);
+             }*/
+
+
+            /* function initializer1() {
+             var mapProp = {
+             center: new google.maps.LatLng(6.9058213, 79.8630867),
+             zoom: 18,
+             mapTypeId: google.maps.MapTypeId.ROADMAP
+             };
+             var map = new google.maps.Map(document.getElementById("googleMap2"), mapProp);
+             }*/
             google.maps.event.addDomListener(window, 'load', initialize);
             google.maps.event.addDomListener(window, 'load', initializer);
             google.maps.event.addDomListener(window, 'load', initializer1);
