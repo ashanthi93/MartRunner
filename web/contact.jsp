@@ -20,6 +20,11 @@
         </script>
 
         <script>
+           /* function toggleBounce() {
+                
+                    marker.setAnimation(google.maps.Animation.BOUNCE);
+                
+            }*/
             function initialize() {
                 var myLatLng = {lat: 6.906532, lng: 79.863419};
 
@@ -31,9 +36,13 @@
                 var marker = new google.maps.Marker({
                     position: myLatLng,
                     map: map,
+                    animation: google.maps.Animation.DROP,
                     title: 'Saturday market @ Racecourse Ground!'
                 });
+               // marker.addListener('click', toggleBounce);
+
             }
+            
 
             function initializer() {
                 var myLatLng = {lat: 6.9044815, lng: 79.9098249};
@@ -46,9 +55,13 @@
                 var marker = new google.maps.Marker({
                     position: myLatLng,
                     map: map,
-                    title: 'Thursday market @ Diyatha Uyana!!'
+                    title: 'Thursday market @ Diyatha Uyana!!',
+                    animation: google.maps.Animation.DROP
                 });
+              //  marker.addListener('click', toggleBounce);
             }
+            
+            
             function initializer1() {
                 var myLatLng = {lat: 6.9058213, lng: 79.8630867};
 
@@ -60,9 +73,12 @@
                 var marker = new google.maps.Marker({
                     position: myLatLng,
                     map: map,
+                    animation: google.maps.Animation.DROP,
                     title: 'Good Market Shop!'
                 });
+               // marker.addListener('click', toggleBounce);
             }
+            
 
 
             /* function initializer() {
