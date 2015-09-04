@@ -103,15 +103,7 @@
         <%@include file="footer.jsp" %>
 
         <script src="static/js/jquery.js"></script>
-        <script src="static/js/jquery_2.js"></script>
-        <script>
-            $(function () {
-                $("#header").load("header.jsp");
-                $("#footer").load("footer.jsp");
-            });
-        </script>
         <script src="static/js/bootstrap.min.js"></script>
-        <script src="static/js/main.js"></script>
     </body>
 </html>
 
