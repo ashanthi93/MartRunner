@@ -10,11 +10,10 @@
         <link type="text/css" href="static/css/bootstrap.min.css" rel="stylesheet">
         <link type="text/css" href="static/css/mainSliderStyles.css" rel="stylesheet">
         <link type="text/css" href="static/css/backgroundStyles.css" rel="stylesheet">
-        <link href="static/css/footerStyles.css" rel="stylesheet">
     </head>
     
     <body>
-        <div id="header"> </div> 
+        <%@include file="header.jsp" %>
         
 	<section id="mainImageSlider" class="no-margin">
             <div id="homeSlider" class="carousel slide">
@@ -142,16 +141,9 @@
             </div>
         </section>
         
-        <div id="footer"></div>
+        <%@include file="footer_sub.jsp" %>
         
         <script src="static/js/jquery.js"> </script>
-        <script src="static/js/jquery_2.js"> </script>
-        <script>
-            $(function(){
-                $("#header").load("header.jsp");
-                $("#footer").load("footer_sub.jsp");
-            });
-        </script>
         <script src="static/js/bootstrap.min.js"> </script>
         <script src="static/js/main.js"> </script>
     </body>
